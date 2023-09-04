@@ -4,14 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
+    <style>
+        #boton {
+            padding: 5px;
+            background-color: green;
+        }
+    </style>
 </head>
 <body>
-    <button onclick="mostrarAlerta()">Saludar</button>
-
+    <div id="boton">
+        <button id= "miBoton" onclick="mostrarAlerta()">Saludar</button>
+    </div>
+    
     <script>
         function mostrarAlerta() {
             alert("Hola!");
         }
     </script>
+
+    <script src="eventos.js"></script>
+
 </body>
 </html>
